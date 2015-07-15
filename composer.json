@@ -1,0 +1,21 @@
+{
+    "name": "ricanthonylee/criteria",
+    "description": "Groups and Organizes Parameters",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Richard Lee",
+            "email": "richard.lee@quallsbenson.com"
+        }
+    ],
+    "require": {
+        "ricanthonylee/itemizer": "dev-master"
+    },
+    "autoload":{
+        "psr-0": {
+            "Criteria":""
+        }
+    },
+    "target-dir" : "Criteria\\"
+}
