@@ -15,7 +15,7 @@ class CriteriaBuilder extends ItemCollection{
 	public function addParameter( $name, callable $callback )
 	{
 
-		$collection  = $this->has( $name ) ? $this->get( $collection ) : $this->factory()->make( $name );
+		$collection  = $this->has( $name ) ? $this->get( $name ) : $this->factory()->make( $name );
 		$itemFactory = $this->item();
 
 		//allow user to add items to the collection using a callback
